@@ -1,0 +1,28 @@
+body{
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+     
+}
+
+.container{
+  display: grid;
+  height: 800px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 1fr 100px;
+  gap: 20px;
+
+}
+
+header{
+  background-color: blue;
+}
+
+main{
+  background-color: brown;
+}
+
+aside{
+  background-color: yellow;
+}

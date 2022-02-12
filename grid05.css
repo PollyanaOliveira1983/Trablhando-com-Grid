@@ -1,0 +1,50 @@
+body{
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+ 
+}
+.container{
+display:grid;
+height: 800px;
+grid-template-columns: 100px 1fr;
+grid-template-rows: 100px;
+grid-template-areas: 
+"header header header"
+"main footer footer"
+"main footer footer"
+"main footer footer"
+
+;
+
+
+}
+
+header{
+ 
+  background: yellow;
+  grid-area: header;
+
+ 
+}  
+
+main{
+ 
+  background-color:blue;
+  grid-area: main;
+}  
+
+aside{
+  
+  background-color: rgb(1, 128, 1);
+  grid-area: aside;
+}  
+
+footer{
+ 
+  background-color: red;
+  grid-area: footer;
+ 
+}
